@@ -3,27 +3,67 @@
 <!--                                                      :::      ::::::::  -->
 <!-- baba.html                                          :+:      :+:    :+:  -->
 <!--                                                  +:+ +:+         +:+    -->
-<!-- By: Raphael <raphaelkriefbm@gmail.com>         +#+  +:+       +#+       -->
+<!-- By: rkrief <rkrief@student.42.fr>              +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
-<!-- Created: 2018/02/27 11:09:45 by Raphael           #+#    #+#            -->
-<!-- Updated: 2018/02/28 09:26:03 by Raphael          ###   ########.fr      -->
+<!-- Created: 2018/03/05 17:53:03 by rkrief            #+#    #+#            -->
+<!-- Updated: 2018/03/05 17:56:21 by rkrief           ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
-<HTML>
-<HEAD>
-<STYLE>
-body {background-color: pink;}
-H1 {color: white}
-</STYLE>
-<TITLE>B.A.BA</TITLE>
-</HEAD>
-<BODY>
-<H1 style="text-align:center">Salut à tous</H1>
-<FIGURE>
-<IMG SRC="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/19/d7/bd/19d7bdfa-a2c1-e1ca-d6fa-ecf5f533fe05/AppIcon-1x_U007emarketing-85-220-0-5.png/1200x630bb.jpg">
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background-color: pink;
+			}
 
-</FIGURE>
-<IMG SRC="aaaa.jpg">
-</BODY>
-</HTML>
+			h1 {
+				color: white;
+				text-align: center;
+			}
+
+			.image {
+				float: left;
+			}
+
+			img.amazon {
+				height: 100px;
+				width: auto;
+			}
+
+			img.aliexpress {
+				height: 100px;
+				width: auto;
+			}
+
+			hr {
+				clear: both;
+			}
+
+			.copyright {
+				font-style: italic;
+				font-family: monospace;
+				text-align: right;
+			}
+		</style>
+		<title>B.A.BA</title>
+	</head>
+	<body>
+		<h1>Salut à tous</h1>
+		<div class="image">
+			<img class="amazon" src="https://blog.lengow.com/wp-content/uploads/2015/03/logo-amazon.jpg">
+			<br/>
+			<a href="https://www.amazon.com">www.amazon.com</A>
+		</div>
+		<div class="image">
+			<img class="aliexpress" src="https://www.couturette.fr/wp-content/uploads/2016/05/Aliexpress-Amazon-Chinoise-1170x550.png">
+			<br/>
+			<a href="https://www.aliexpress.com">www.aliexpress.com</A>
+		</div>
+	</body>
+	<footer>
+		<hr>
+		<p class="copyright">© rkrief 2018</p>
+	</footer>
+</html>
