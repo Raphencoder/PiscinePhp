@@ -1,0 +1,101 @@
+
+.alcalino-terreux {
+    background-color: #D2691E;
+}
+
+.metaux-transition {
+    background-color: #F0E68C;
+}
+
+.other {
+    background-color: #778899;
+}
+
+.actinides {
+    background-color: #FFDAB9;
+}
+
+.lanthanides {
+    background-color: #F4A460;
+}
+
+.nometal {
+    background-color: #32CD32;
+}
+
+.metalloide {
+    background-color: #3CB371;
+}
+
+.hallogen {
+    background-color: #87CEFA;
+}
+
+.gazrare {
+    background-color: #FA8072;
+}
+
+.alcalin {
+    background-color: #B0C4DE;
+}
+
+p.mass {
+text-align: right;
+margin-top: 0%;
+margin-right: 4%;
+font-style: italic;
+font-size: 1vw;
+}
+
+h1 {
+    margin-left: 18%;
+    font-family: Helvetica;
+    text-decoration: underline;
+    font-style: italic;
+}
+p.num {
+margin-bottom: 0%;
+font-size: 1vw;
+text-align: left;
+}
+
+p {
+    font-size: 1vw;
+}
+
+.name {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.tableautitre {
+    position: absolute;
+    left : 5%;
+    width: 90%;
+    height: 80%;
+}
+
+.uus {
+    background-color: #B0E0E6;
+}
+
+.Uuo {
+        background-color: #FFDAB9;
+}
+.flotte {
+float: left;
+}
+
+.flott {
+    float: left;
+    width: 42%;
+    height: auto;
+    margin-left: 20%;
+}
+
+table {
+    position: absolute;
+    left : 5%;
+    width: 90%;
+    height: 80%;
+}

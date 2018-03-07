@@ -1,5 +1,6 @@
 body {
     background-color: #505050;
+    font-family: Arial;
 }
 
 .header {
@@ -70,8 +71,9 @@ body {
 .oeil {
     width: 50%;
     height: auto;
+    border: solid 6px red;
     margin-top: 5%;
-    margin-left: 26%;
+    margin-left: 25%;
 }
 
 .outil {
@@ -164,8 +166,71 @@ body {
     height: 15%;
     margin-top: 45%;
     margin-left: 6%;
+    box-shadow: 10px 10px 15px black;
 }
 
-.mef {
-    font-size: 8;
+u {
+    font-size: 35px;
+    text-decoration: none;
+    font-family: Times;
+}
+
+s {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+i {
+    font-style: normal;
+    text-shadow: 4px 7px 8px #ff0000;
+}
+
+.question {
+    margin-top: -10px;
+    line-height: 0px;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.text-cube {
+    margin-left: 10px;
+    position: relative;
+}
+
+.champ {
+    position: relative;
+    width:400px;
+    height:20px;
+    bottom: 8px;
+
+}
+
+.ikea {
+    background-color: transparent;
+    position: absolute;
+    width: 8%;
+    height: 24%;
+    top : 58%;
+    left : 40%;
+}
+
+.apple {
+    background-color: transparent;
+    position: absolute;
+    width: 11%;
+    height: 17%;
+    top : 57.5%;
+    left : 67.5%;
+}
+
+.boutton {
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    bottom: 12px;
+    width: 15%;
 }
