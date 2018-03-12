@@ -1,0 +1,242 @@
+body {
+    background-color: #505050;
+    font-family: Arial;
+}
+
+.header {
+    margin-top: 1%;
+    position: absolute;
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+    margin-left: 7%;
+    margin-right: auto;
+    width: 85%;
+    height: 15%;
+}
+
+.day {
+    margin-top: 0.5%;
+    width: 34%;
+    height: 80%;;
+    border-radius: 10px;
+}
+
+
+.divright {
+    position : absolute;
+    background-color: #909090;
+    border-radius: 10px;
+    left: 82%;
+    top: 25%;
+    box-shadow: 10px 10px 15px black;
+    width: 9.5%;
+    height: 48%;
+}
+
+.book {
+    width: 500%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 26%;
+}
+
+.divleft {
+    position : absolute;
+    background-color: #909090;
+    border-radius: 10px;
+    top: 25%;
+    left: 8%;
+    box-shadow: 10px 10px 15px black;
+    width: 9.5%;
+    height: 48%;
+
+}
+
+.arrow {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 1%;
+    left: 26%;
+}
+
+.main {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 20%;
+    left: 26%;
+}
+
+.oeil {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 40%;
+    left: 25%;
+}
+
+.outil {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 60%;
+    left: 26%;
+}
+
+.chat-icon {
+    position: absolute;
+    width: 50%;
+    height: auto%;
+    top: 80%;
+    left: 26%;
+}
+
+.central {
+    background-color: #909090;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+    top: 25%;
+    width: 60%;
+    height: 65%;
+    margin-left: 20%;
+}
+
+.cluster {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 98%;
+    height: 97%;
+}
+
+.book {
+    width: 45%;
+    height: auto;
+    top: 16%;
+    left: 26%;
+}
+
+.towel {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 26%;
+    left: 26%;
+}
+
+.wall {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 15%;
+    top : 45%;
+    background: url("ressources/brick.jpg");
+    background-repeat: repeat;
+}
+
+.option {
+    left: 98%;
+    bottom: 85%;
+    position: relative;
+    width: 2.1%;
+    height: 100%;
+}
+
+.reload {
+    width: 75%;
+    height: auto;
+    margin-top: 25%;
+    margin-left: 0%;
+
+}
+
+.close {
+    margin-left: 0%;
+    width: 80%;
+    margin-top: 270%;
+}
+.loop {
+    width: 19%;
+    position: absolute;
+    left: 78%;
+    top: 8%;
+}
+
+.cube-answer {
+    background-color: #88ff89;
+    position: absolute;
+    border-radius: 10px;
+    width: 30%;
+    height: 20%;
+    margin-top: 45%;
+    margin-left: 6%;
+    box-shadow: 10px 10px 15px black;
+}
+
+u {
+    font-size: 35px;
+    text-decoration: none;
+    font-family: Times;
+}
+
+s {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+i {
+    font-style: normal;
+    text-shadow: 4px 7px 8px #ff0000;
+}
+
+.question {
+    margin-top: -10px;
+    line-height: 0px;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.text-cube {
+    margin-left: 10px;
+    position: relative;
+}
+
+.champ {
+    position: relative;
+    width:400px;
+    height:20px;
+    bottom: 8px;
+
+}
+
+.ikea {
+    background-color: transparent;
+    position: absolute;
+    width: 8%;
+    height: 24%;
+    top : 58%;
+    left : 40%;
+}
+
+.apple {
+    background-color: transparent;
+    position: absolute;
+    width: 11%;
+    height: 17%;
+    top : 57.5%;
+    left : 67.5%;
+}
+
+.boutton {
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    bottom: 12px;
+    width: 15%;
+}
