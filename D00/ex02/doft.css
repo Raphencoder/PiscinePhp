@@ -15,6 +15,9 @@ body {
     height: 15%;
 }
 
+a:link a:visited a:hover {
+    color: hotpink;
+}
 
 .day {
     margin-top: 0.5%;

@@ -1,6 +1,7 @@
 .menu{
     position: relative;
     list-style-type: none;
+    padding: 0;
 }
 
 .onglet {
@@ -8,17 +9,19 @@
     float: left;
     bottom: 16px;
     display: list-item;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 29px;
-    padding-bottom: 28px;
+    padding-bottom: 23px;
 }
 
 .header {
     background-color: grey;
     width: 101%;
-    height: 75px;
+    height: 70px;
     position: absolute;
+    left : 0px;
+    top : 0px;
 }
 
 .deroulant {
@@ -29,9 +32,56 @@
     height: 50px;
 }
 
+.secondmenu {
+    display: none;
+    padding: 0;
+}
+
+.onglete {
+    position: relative;
+    float: left;
+    bottom: 16px;
+    display: list-item;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.onglete:hover {
+    position: relative;
+    background-color: #c1c1c1;
+    padding-bottom: 168px;
+    padding-right: 49px;
+}
+
+.onglete:hover .secondonglet {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.secondonglet {
+    right: 20px;
+}
+
+.secondonglet:hover {
+    background-color: grey;
+}
+
+.onglete:hover .secondmenu {
+    display: block;
+    position: absolute;
+    list-style-type: none;
+    top: 70px;
+    left: 0px;
+}
+
 .deroule:hover {
     padding-bottom: 100px;
-    background-color: blue;
+    display: block;
+    background-color: #c1c1c1;
 }
 
 li:hover  {
