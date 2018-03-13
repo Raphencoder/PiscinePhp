@@ -9,6 +9,7 @@ while ($argv[$i])
 {
 	$tab = array_filter(explode(" ", $argv[$i]));
 	$i++;
+	sort($tab);
 	$j = 0;
 	while($tab[$j])
 		$final[$l++]=$tab[$j++];
