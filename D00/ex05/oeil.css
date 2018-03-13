@@ -61,6 +61,22 @@ body {
     left: 26%;
 }
 
+.indice2 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top : 84%;
+    left : 41%;
+}
+
+.indice {
+    position: absolute;
+    width: 9%;
+    height: 10%;
+    top : 38%;
+    left : 41%;
+}
+
 .main {
     position: absolute;
     width: 50%;
@@ -71,6 +87,7 @@ body {
 
 .oeil {
     position: absolute;
+    border: 6px solid red;
     width: 50%;
     height: auto;
     top: 40%;
@@ -87,7 +104,6 @@ body {
 
 .chat-icon {
     position: absolute;
-    border: 6px solid red;
     width: 50%;
     height: auto%;
     top: 80%;
@@ -232,51 +248,6 @@ i {
     height: 17%;
     top : 57.5%;
     left : 67.5%;
-}
-
-.mec {
-    background-color: transparent;
-    position: absolute;
-    width: 2%;
-    height: 10%;
-    top : 52%;
-    left : 30%;
-}
-
-.fille {
-    background-color: transparent;
-    position: absolute;
-    width: 6%;
-    height: 27%;
-    top : 50%;
-    left: 20%;
-}
-
-.inconnu {
-    background-color: transparent;
-    position: absolute;
-    width: 4%;
-    height: 8%;
-    top : 50%;
-    left: 48%;
-}
-
-.fillefond {
-    background-color: transparent;
-    position: absolute;
-    width: 2.6%;
-    height: 6%;
-    top : 52%;
-    left: 43%;
-}
-
-.reunion {
-    background-color: transparent;
-    position: absolute;
-    width: 3%;
-    height: 3%;
-    top : 51%;
-    left: 69%;
 }
 
 .boutton {
