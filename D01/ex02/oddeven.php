@@ -15,10 +15,12 @@ while ($stdin && !feof($stdin))
 		echo "'$nb' n'est pas un chiffre\n";
 	else
 		{
-			if ($nb % 2 == 0)
-				echo "Le chiffre $nb est Pair\n";
+			$clone = $nb;
+			$test = substr($nb, -1);
+			if ($test % 2 == 0)
+				echo "Le chiffre $clone est Pair\n";
 			else
-				echo "Le chiffre $nb est Impair\n";
+				echo "Le chiffre $clone est Impair\n";
 		}
 }
 fclose($stdin);

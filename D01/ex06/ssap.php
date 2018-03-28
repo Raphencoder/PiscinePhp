@@ -7,8 +7,6 @@ function ft_zero($var){
 $i = 1;
 $j = 0;
 $l = 0;
-if ($argc < 2)
-	return (0);
 while ($argv[$i] || $argv[$i] == "0")
 {
 	$tab = array_filter(explode(" ", $argv[$i]), 'ft_zero');
