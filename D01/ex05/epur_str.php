@@ -1,5 +1,7 @@
 #!/usr/bin/php
 <?php
+if ($argc != 2)
+	return ;
 $i = 0;
 $new_str = trim($argv[1]);
 while ($argv[1][$i])
