@@ -20,6 +20,7 @@ if ($user['login'] && $user['passwd'] && (!ft_search($user['login'], $user_accou
   $user_accounts[] = $user;
   file_put_contents('../private/passwd', serialize($user_accounts));
   echo "OK\n";
+  header('Refresh: 2; URL="index.html"');
 }
 else {
   echo "Error\n";
